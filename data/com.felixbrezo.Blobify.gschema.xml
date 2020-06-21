@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist gettext-domain="blobify">
+	<schema id="com.felixbrezo.Blobify" path="/com/felixbrezo/Blobify/">
+	</schema>
+</schemalist>

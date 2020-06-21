@@ -1,0 +1,41 @@
+{
+    "app-id" : "com.felixbrezo.Blobify",
+    "runtime" : "org.gnome.Platform",
+    "runtime-version" : "3.36",
+    "base" : "io.elementary.BaseApp",
+    "base-version" : "juno-19.08",
+    "sdk" : "org.gnome.Sdk",
+    "command" : "blobify",
+    "finish-args" : [
+        "--share=network",
+        "--share=ipc",
+        "--socket=fallback-x11",
+        "--socket=wayland",
+        "--filesystem=home"
+    ],
+    "cleanup" : [
+        "/include",
+        "/lib/pkgconfig",
+        "/man",
+        "/share/doc",
+        "/share/gtk-doc",
+        "/share/man",
+        "/share/pkgconfig",
+        "/share/vala",
+        "*.la",
+        "*.a"
+    ],
+    "modules" : [
+        {
+            "name" : "blobify",
+            "builddir" : true,
+            "buildsystem" : "meson",
+            "sources" : [
+                {
+                    "type" : "git",
+                    "url" : "file:///home/felix/Público/Syncthing/febrezo-personal/Otros/Blobify"
+                }
+            ]
+        }
+    ]
+}

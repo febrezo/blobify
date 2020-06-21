@@ -1,0 +1,7 @@
+data/com.felixbrezo.Blobify.desktop.in
+data/com.felixbrezo.Blobify.appdata.xml.in
+data/com.felixbrezo.Blobify.gschema.xml
+src/window.ui
+src/main.vala
+src/window.vala
+

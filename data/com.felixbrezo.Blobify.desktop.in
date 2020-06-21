@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=blobify
+Exec=blobify
+Terminal=false
+Type=Application
+Categories=GTK;
+StartupNotify=true
